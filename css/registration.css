@@ -1,0 +1,88 @@
+ body {
+	background: #5C6882;
+}
+
+a {
+	font-size: 18px;
+	color: #fff;
+
+}
+
+a:hover{
+	text-decoration: none;
+}
+.container{
+	    width: 600px;
+       height: 510px;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color: #182134;
+    margin: 190px auto auto auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 10px rgb(79 108 168 / 65%);
+}
+ 
+input[type='text'], input[type='password'] {
+width: 400px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	padding-left: 40px;
+	border: 2px solid #007C99;	
+	transition: 0.5s linear;
+}
+input:hover{
+	box-shadow: 0 0 6px 3px rgba(58,219,253,0.35);
+}
+ input:focus {
+  outline: none;
+  box-shadow: 0 0 6px 3px rgba(58,219,253,0.35);
+}
+
+.sb {
+	    margin: 5px 0 20px 0;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+    width: 250px;
+    background-color: #007C99;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s linear;
+
+}
+
+.sb:hover{
+	color: black;
+	background: #77D1E5;
+}
+
+
+
+.inputs::before,.inputs-pass::before, .email-input::before{
+	font-family: 'FontAwesome';
+	content: '\f007';
+	position: absolute;
+	font-size: 30px;
+	padding: 10px 0 0 7px;
+	color: #4175A0;
+	pointer-events: none;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.inputs-pass::before{
+	content: '\f023';
+}
+
+.email-input::before{
+	content:  '\f0e0';
+}
